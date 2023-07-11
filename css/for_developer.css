@@ -1,0 +1,30 @@
+.for_developer_start{
+    display: flex;
+    width: 90%;
+    height: calc(100vh - 220px);
+    background-image: url(../images/for_developer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 120px !important;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.for_developer_start div {
+    background-color: rgba(255,255,255,0.9);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.for_developer_start div h1 {
+    font-size: 4.5rem;
+}
+
+.for_developer_start div p {
+    font-size: 1.8rem;
+}

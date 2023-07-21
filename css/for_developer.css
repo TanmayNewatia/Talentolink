@@ -99,6 +99,7 @@
 @media screen and (max-width: 420px) {
     .for_community_start {
         font-size: 3rem;
+        height: auto;
     }
 
     .sub_p {

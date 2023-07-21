@@ -101,6 +101,17 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .news {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news img {
+        width: auto !important;
+    }
+}
 html {
     font-size: 10px;
     overflow-x: hidden;
@@ -191,7 +202,7 @@ header {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
     .next-next-enclosed, .news-area {
         flex-direction: column;
         row-gap: 20px;

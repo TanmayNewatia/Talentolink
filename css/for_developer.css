@@ -1,7 +1,7 @@
 .for_developer_start{
     display: flex;
     width: 90%;
-    height: calc(100vh - 220px);
+    height: 80vh;
     background-image: url(../images/for_developer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,6 +12,31 @@
     border-radius: 20px;
     padding: 20px;
     flex-direction: column;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .for_developer_start div{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .for_developer_start div{
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .for_developer_start div{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .for_developer_start div{
+        width: 95% !important;
+    }
 }
 
 .for_developer_start div {
@@ -27,4 +52,64 @@
 
 .for_developer_start div p {
     font-size: 1.8rem;
+}
+
+.for_community_start {
+    font-size: 5.5rem;
+}
+
+#reuse_p {
+    font-size: 1.6rem !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .for_community_start {
+        font-size: 5rem;
+    }
+
+    .sub_p {
+        font-size: 2rem !important;
+    }
+
+    #reuse_p {
+        font-size: 1.6rem !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .for_community_start {
+        font-size: 4rem;
+    }
+
+    .sub_p{
+        font-size: 1.7rem !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .for_community_start {
+        font-size: 3.5rem;
+    }
+
+    .sub_p {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .for_community_start {
+        font-size: 3rem;
+    }
+
+    .sub_p {
+        font-size: 1.4rem !important;
+    }
+}
+
+.testimonials {
+    padding-top: 80px;
+}
+
+.reuse {
+    text-align: left;
 }

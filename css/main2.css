@@ -394,6 +394,7 @@ header {
 }
 
 footer {
+    margin-top: 80px;
     background-color: black;
     display: flex;
     justify-content: space-between;

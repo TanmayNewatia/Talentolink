@@ -1,4 +1,4 @@
-.for_developer_start{
+.for_developer_start, .for_developer_global{
     display: flex;
     width: 90%;
     height: 80vh;
@@ -15,42 +15,46 @@
     object-fit: contain;
 }
 
+.for_developer_global {
+    background-image: url(../images/global.jpg);
+}
+
 @media screen and (max-width: 800px) {
-    .for_developer_start div{
+    .for_developer_start div, .for_developer_global div{
         width: 50% !important;
     }
 }
 
 @media screen and (max-width: 630px) {
-    .for_developer_start div{
+    .for_developer_start div, .for_developer_global div{
         width: 60% !important;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .for_developer_start div{
+    .for_developer_start div, .for_developer_global div{
         width: 70% !important;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .for_developer_start div{
+    .for_developer_start div, .for_developer_global div{
         width: 95% !important;
     }
 }
 
-.for_developer_start div {
+.for_developer_start div, .for_developer_global div{
     background-color: rgba(255,255,255,0.9);
     width: 40%;
     padding: 10px;
     border-radius: 10px;
 }
 
-.for_developer_start div h1 {
+.for_developer_start div h1, .for_developer_global div h1 {
     font-size: 4.5rem;
 }
 
-.for_developer_start div p {
+.for_developer_start div p, .for_developer_global div p {
     font-size: 1.8rem;
 }
 

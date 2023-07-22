@@ -1,0 +1,55 @@
+.for_about_start{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    background-image: url(../images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 120px !important;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .for_about_start div {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .for_about_start div {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .for_about_start div {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .for_about_start div {
+        width: 95% !important;
+    }
+}
+
+.for_about_start div {
+    background-color: rgba(255,255,255,0.9);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.for_about_start div h1 {
+    font-size: 4.5rem;
+}
+
+.for_about_start div p {
+    font-size: 1.8rem;
+}

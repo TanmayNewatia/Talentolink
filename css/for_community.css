@@ -1,4 +1,4 @@
-.for_community_start {
+.for_community_start, .for_community_start_small {
     display: flex;
     width: 90%;
     height: 90vh;
@@ -12,6 +12,11 @@
     object-fit: contain;
     text-align: center;
     font-size: 8rem;
+}
+
+.for_community_start_small {
+    justify-content: flex-start;
+    height: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -70,4 +75,89 @@
 
 .gallery img {
     max-width: 500px;
+}
+
+.for_community_start_small {
+    font-size: 5.5rem;
+}
+
+.sub_p {
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .for_community_start_small {
+        font-size: 5rem;
+    }
+
+    .sub_p {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .for_community_start_small {
+        font-size: 4rem;
+    }
+
+    .sub_p{
+        font-size: 1.7rem !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .for_community_start_small {
+        font-size: 3.5rem;
+    }
+
+    .sub_p {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .for_community_start_small {
+        font-size: 3rem;
+        height: auto;
+    }
+
+    .sub_p {
+        font-size: 1.4rem !important;
+    }
+}
+
+.numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.numbers div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f4f8;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .numbers {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .numbers div {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .numbers div {
+        width: 90%;
+    }
 }

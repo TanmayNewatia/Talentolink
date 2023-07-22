@@ -1,4 +1,4 @@
-.for_companies_start {
+.for_companies_start, .for_companies_global {
     display: flex;
     width: 90%;
     height: 80vh;
@@ -15,41 +15,69 @@
     object-fit: contain;
 }
 
+.for_companies_global {
+    background-image: url(../images/meeting.jpg);
+}
+
 @media screen and (max-width: 800px) {
-    .for_companies_start div {
+    .for_companies_start div, .for_companies_global div {
         width: 50% !important;
     }
 }
 
 @media screen and (max-width: 630px) {
-    .for_companies_start div {
+    .for_companies_start div, .for_companies_global div {
         width: 60% !important;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .for_companies_start div {
+    .for_companies_start div, .for_companies_global div {
         width: 70% !important;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .for_companies_start div {
+    .for_companies_start div, .for_companies_global div {
         width: 95% !important;
     }
 }
 
-.for_companies_start div {
+.for_companies_start div, .for_companies_global div {
     background-color: rgba(255, 255, 255, 0.9);
     width: 40%;
     padding: 10px;
     border-radius: 10px;
 }
 
-.for_companies_start div h1 {
+.for_companies_start div h1, .for_companies_global div h1 {
     font-size: 4.5rem;
 }
 
-.for_companies_start div p {
+.for_companies_start div p, .for_companies_global div p {
     font-size: 1.8rem;
+}
+
+@media screen and (max-width: 800px) {
+    .for_companies_start div, .for_companies_global div{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .for_companies_start div, .for_companies_global div{
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .for_companies_start div, .for_companies_global div{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .for_companies_start div, .for_companies_global div{
+        width: 95% !important;
+    }
 }
